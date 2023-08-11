@@ -218,6 +218,7 @@ wilcox.test(selfsample_rural$`TAM_TIPOMUESTRA_A`,selfsample_urban$`TAM_TIPOMUEST
 
 #### ANALYSIS FOR IMPLEMENTATION DATA - TVT-TA REFERRAL REASONS #### ----
 library(readxl)
+#This data is here in the TVT-TA tab: https://docs.google.com/spreadsheets/d/1T2wY3viu5sesj0Y_jL8SDAXpjGN-h8oE/edit?usp=sharing&ouid=102523393703592875338&rtpof=true&sd=true
 df_tvtta <- read_excel("/Users/rachelmorse/Documents/2021:2022/Proyecto Precáncer/REAIM/Data (TVT-TA, self sampling).xlsx", 
                        sheet = "TVT-TA")
 attach(df_tvtta)
